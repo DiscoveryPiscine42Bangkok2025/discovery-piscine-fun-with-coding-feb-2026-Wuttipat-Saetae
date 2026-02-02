@@ -1,0 +1,12 @@
+cd discovery_piscine
+mkdir cell02
+cd cell02
+mkdir ex02
+cd ex02
+mkdir Filetesst
+mkdir .Filetesst
+echo Textfile1 > Textfile1
+echo Textfile2 > ..Textfile2
+ls Filetesst / Textfile1
+ls | paste -s -d , > midLS
+cat midLS
