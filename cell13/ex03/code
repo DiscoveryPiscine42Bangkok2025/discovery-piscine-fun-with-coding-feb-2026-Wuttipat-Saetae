@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Piscine Web</title>
+
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .images {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .caption {
+            height: 24px;
+            line-height: 24px;
+            margin: 0;
+        }
+
+        .empty {
+            visibility: hidden;
+        }
+
+        img {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Piscine Web</h1>
+
+    <div class="images">
+        <div class="left">
+            <p class="caption empty">.</p>
+            <a href="https://www.youtube.com/watch?v=INscMGmhmX4">
+                <img src="catlook.jpg" alt="Cat">
+            </a>
+        </div>
+
+        <div class="right">
+            <p class="caption">I want to sleep!!!</p>
+            <img src="catsit.jpg" alt="catsit">
+        </div>
+    </div>
+
+
+</body>
+</html>
