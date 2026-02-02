@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Piscine Web</title>
+
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .images {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .right {
+            text-align: center;
+        }
+
+        .right img {
+            width: 300px;
+        }
+
+        .left img {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Piscine Web</h1>
+
+    <div class="images">
+    <div class="left">
+        <p class="caption empty">.</p>
+        <img src="catlook.jpg" alt="Cat">
+    </div>
+
+    <div class="right">
+        <p class="caption">I want to sleep!!!</p>
+        <img src="catsit.jpg" alt="catsit">
+    </div>
+</div>
+
+    <p>Figure IV.1: Ex02</p>
+
+</body>
+</html>
