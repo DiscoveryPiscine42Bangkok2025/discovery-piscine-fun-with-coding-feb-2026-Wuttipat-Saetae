@@ -1,0 +1,42 @@
+cd discovery_piscine
+
+mkdir cell03
+
+cd cell03
+
+mkdir ex03
+
+cd ex03
+
+mkdir Text1
+
+mkdir Text2
+
+mkdir Text3
+
+echo Filetext1>Filetext1
+
+echo Filetext2>Filetext2
+
+
+ls -l | grep ^-
+
+
+ls -l | grep ^- | wc -l
+2
+
+printf "%d files and %d directories detected. \n" $(ls -l | grep ^- | wc -l) $(ls -l | grep ^d | wc -l)
+2 files and 3 directories detected.
+
+nano count_files.sh
+
+  #!/bin/bash
+  printf "%d files and %d directories detected. \n" $(ls -l | grep ^- | wc -l) $(ls -l | grep ^d | wc -l)
+
+chmod +x count_files.sh
+
+./count_files.sh
+3 files and 3 directories detected.
+
+
+
