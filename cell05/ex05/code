@@ -32,5 +32,13 @@ No arguments supplied
 
 ./build.sh 00 01 02 03 04
 
+$ ls -l
+total 1
+-rwxr-xr-x 1 My - PC 197121 132 Feb  3 09:18 build.sh*
+drwxr-xr-x 1 My - PC 197121   0 Feb  3 09:18 ex00/
+drwxr-xr-x 1 My - PC 197121   0 Feb  3 09:18 ex01/
+drwxr-xr-x 1 My - PC 197121   0 Feb  3 09:18 ex02/
+drwxr-xr-x 1 My - PC 197121   0 Feb  3 09:18 ex03/
+drwxr-xr-x 1 My - PC 197121   0 Feb  3 09:18 ex04/
 
 
