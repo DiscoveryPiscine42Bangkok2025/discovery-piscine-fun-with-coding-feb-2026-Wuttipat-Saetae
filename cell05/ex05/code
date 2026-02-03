@@ -1,0 +1,36 @@
+cd discovery_piscine
+
+mkdir cell05
+
+cd cell05
+
+mkdir ex05
+
+cd ex05
+
+touch build.sh
+
+nano build.sh
+
+   #!/bin/sh
+
+if [ $# -eq 0 ]
+then
+    echo "No arguments supplied"
+else
+    for arg in "$@"
+    do
+        mkdir "ex$arg"
+    done
+fi
+
+  
+chmod +x build.sh
+
+./build.sh
+No arguments supplied
+
+./build.sh 00 01 02 03 04
+
+
+
