@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basics</title>
+
+    <style>
+        body {
+            background-color: pink;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: white;
+            font-size: 48px;
+            margin-top: 40px;
+        }
+
+        .shops {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .shop img {
+            width: 200px;
+            height: 120px;
+            object-fit: contain;
+        }
+
+        .shop a {
+            display: block;
+            margin-top: 10px;
+        }
+
+        hr {
+            margin: 40px 0;
+        }
+
+        .footer {
+            text-align: right;
+            font-style: italic;
+            font-family: monospace;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to Basics!</h1>
+
+    <div class="shops">
+        <div class="shop">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon">
+            <a href="https://www.amazon.com" target="_blank">Amazon</a>
+        </div>
+
+        <div class="shop">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Shopee_logo.svg/250px-Shopee_logo.svg.png" alt="Shopee">
+            <a href="https://shopee.com" target="_blank">Shopee</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="footer">
+        © yourlogin 2026
+    </div>
+
+</body>
+</html>
