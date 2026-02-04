@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 {
+    background-image: url("image1.jpg");
+}
+
+.image2 {
+    background-image: url("image2.jpg");
+}
+
+.text {
+    color: white;
+    font-size: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+}
+
+.content {
+    height: 100vh;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content p {
+    color: white;
+    font-size: 30px;
+}
