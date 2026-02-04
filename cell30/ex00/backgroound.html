@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Change background</title>
+    <link rel="stylesheet" href="background.css">
+</head>
+<body>
+
+    <button onclick="changeBackground()">Change background</button>
+
+    <script>
+        function changeBackground() {
+            const randomColor =
+                "rgb(" +
+                Math.floor(Math.random() * 256) + "," +
+                Math.floor(Math.random() * 256) + "," +
+                Math.floor(Math.random() * 256) +
+                ")";
+            document.body.style.backgroundColor = randomColor;
+        }
+    </script>
+
+</body>
+</html>
